@@ -1,0 +1,14 @@
+sqllocaldb create "VerbTables"
+sqllocaldb stop "VerbTables"
+sqllocaldb start "VerbTables"
+sqllocaldb info "VerbTables"
+  
+LOCALAPPDATA$\Microsoft\Microsoft SQL Server Ld
+(localdb) \VerbTables
+  
+- Windows authentication
+CREATE TABLE Verbs (
+ID INT IDENTITY (1,1) PRIMARY KEY,
+Verb VARCHAR (255)
+ALTER TABLE Verbs
+ADD ID INT IDENTITY (1,1) PRIMARY KEY;|
